@@ -3,7 +3,7 @@ from langchain import OpenAI
 import sys
 import os
 import gradio as gr
-os.environ["OPENAI_API_KEY"] =  "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"
+
 
 def create_index(path):
   max_input = 4096
